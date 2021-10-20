@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class Array {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> arrayList = new ArrayList<>();
+		ArrayList<Integer> arrayList2 = new ArrayList<>();
+		
+		arrayList.add(1);
+		arrayList.add(2);
+		arrayList.add(3);
+		
+		
+		arrayList2.add(10);
+		arrayList2.add(20);
+		arrayList2.add(30);
+		
+		arrayList.addAll(arrayList);
+		
+		for(int i = 0; i < arrayList.size(); i++) {
+			System.out.println("arrayList °ª : " + arrayList.get(i));
+		}
+	}
+}
