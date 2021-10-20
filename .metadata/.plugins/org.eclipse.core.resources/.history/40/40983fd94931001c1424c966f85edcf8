@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("입력해주세요.");
+		
+		// String testA = scanner.next(); // next() : 공백 이전까의 글자만 읽어옴
+		
+		String testA = scanner.nextLine();
+		
+		System.out.println(testA);
+		
+	}
+	
+	
+	
+}
