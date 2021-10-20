@@ -1,0 +1,12 @@
+public class Main {
+
+	public static void main(String[] args) {
+		
+		if ( 6 < 5 ) {
+			System.out.println("맞는 말입니다.");
+		} else {
+			System.out.println("거짓입니다.");
+		}
+		
+	}
+}

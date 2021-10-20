@@ -1,0 +1,9 @@
+public class Main {
+
+	public static void main(String[] args) {
+		
+		JavaClass javaclass = new JavaClass();
+		javaclass.printNumber(17);
+		
+	}
+}

@@ -1,0 +1,9 @@
+package View;
+
+public class Main_2 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(system.in);
+	}
+
+}
