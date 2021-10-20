@@ -1,0 +1,13 @@
+import java.util.Scanner;
+import java.util.Vector;
+
+public class Vector_2 {
+
+	public static void main(String[] args) {
+		
+		Vector<String> str = new Vector<String>(5);
+		
+		Scanner scan = new Scanner(system.in);
+	}
+
+}

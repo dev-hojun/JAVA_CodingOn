@@ -1,0 +1,14 @@
+import java.util.Vector;
+
+public class Vector {
+
+	public static void main(String[] args) {
+		Vector<Integer> vector = new Vector<Integer>(); // Vector : 동기화 처리에 효율적, ArrayList : 비동기화 처리에 효율적
+		
+		vector.add(1);
+		vector.addElement(2);
+		
+		System.out.println(vector);
+	}
+
+}
