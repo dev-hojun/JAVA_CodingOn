@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class For {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("입력값을 넣어주세요. : ");
+		
+		int num = scan.nextInt();
+		
+		if ( num % 2 == 0) {
+			System.out.println("짝수를 입력하셨네요.");
+		} if (num > 10) {
+			System.out.println("10보다 큰 짝수");
+		} else {
+			System.out.println("10보다 작은 짝수");
+		}
+	}
+}
