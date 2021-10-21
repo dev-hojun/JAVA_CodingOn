@@ -1,0 +1,10 @@
+
+public class MinusException {
+
+	public static void main(String[] args) {
+		public MinusException() {
+			super("음수가 입력됨");
+		}
+	}
+
+}
